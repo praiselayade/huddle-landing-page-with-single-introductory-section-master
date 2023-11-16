@@ -1,0 +1,57 @@
+/* ******************************* */
+/* BELOW 900PX  */
+/* ******************************* */
+@media (max-width: 900px) {
+  html {
+    font-size: 56.25%;
+  }
+  body {
+    background: url("../images/bg-mobile.svg"),
+      linear-gradient(hsl(257, 40%, 49%), hsl(257, 40%, 49%));
+    background-size: cover;
+  }
+  .huddle {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .main-section {
+    margin: 0;
+  }
+  .flex {
+    justify-content: center;
+  }
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+  .header {
+    padding: 0 4rem;
+  }
+  .huddle-img-box {
+    text-align: center;
+    padding: 0 4rem;
+  }
+  .huddle-text-box {
+    padding: 0 4rem;
+    text-align: center;
+  }
+  .huddle-heading {
+    font-size: 2.6rem;
+  }
+  .huddle-link:link,
+  .huddle-link:visited {
+    padding: 1rem 8rem;
+    margin-bottom: 4rem;
+  }
+  .huddle-text {
+    padding: 0;
+  }
+  .footer {
+    padding-bottom: 4rem;
+  }
+  .img-icon {
+    position: relative;
+    text-align: center;
+    transform: translate(0);
+  }
+}

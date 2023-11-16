@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  column-gap: 3rem;
+}
+.grid--2--cols {
+  grid-template-columns: 1.1fr 1fr;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+body {
+  background: url("../images/bg-desktop.svg") no-repeat,
+    linear-gradient(hsl(257, 40%, 49%), hsl(257, 40%, 49%));
+  background-size: cover;
+}
+.main-section {
+  margin-bottom: 2.4rem;
+}
+.huddle {
+  height: 100vh;
+}
+.header {
+  margin-bottom: 4rem;
+}
+.nav {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+.nav-img {
+  height: 5rem;
+}
+.huddle-img {
+  width: 100%;
+}
+.huddle-text-box {
+  padding: 6rem 0;
+}
+.huddle-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+.huddle-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+.huddle-link:link,
+.huddle-link:visited {
+  display: inline-block;
+  color: hsl(257, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 1.8rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  padding: 1rem 5.4rem;
+}
+.huddle-link:hover,
+.huddle-link:active {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+.footer {
+  position: relative;
+}
+.img-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, 10%);
+}
+.icon {
+  height: 3rem;
+  stroke: #fff;
+}
+.icon:hover,
+.icon:active {
+  cursor: pointer;
+  stroke: hsl(300, 69%, 71%);
+}
